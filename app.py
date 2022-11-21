@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 @app.route('/converter', methods=['GET'])
 def convert_currency() -> Response:
-    '''https://freecurrencyapi.net/#documentationSection
+    '''
     Returns the conversation rate from one currency to another.
 
     Query Parameters:
